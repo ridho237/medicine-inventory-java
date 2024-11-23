@@ -34,8 +34,4 @@ public class medicineController {
     public List<modelMedicine> getAllMedicine(){
         return medicineService.getAllMedicine();
     }
-
-    public void deleteMhs(int id) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
 }
